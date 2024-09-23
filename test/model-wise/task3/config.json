@@ -1,8 +1,0 @@
-{
-    "world_size": 1,
-    "cap_size": 2,
-    "epochs": 3,
-    "model_name": "resnet152",
-    "model_type": "CV",
-    "batchsize": 16
-}

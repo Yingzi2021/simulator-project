@@ -1,0 +1,17 @@
+{
+    "description": "Configuration for the DDP script",
+    "world_size": 2,  
+    "matrix_size": 4096,  
+    "tensor_size": 16,  
+    "iterations": 1000,  
+    "overlap": false,  
+    "linear_input_size": 10240,  
+    "attention_config": {
+      "Z": 32,  
+      "H": 8,  
+      "KVH": 8,  
+      "N_CTX": 512,  
+      "D_HEAD": 64
+    },
+    "operation": "all"
+}

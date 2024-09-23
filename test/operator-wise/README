@@ -1,0 +1,2 @@
+1、进行一次测试后，需要运行clean.sh将上次的nsys-rep和sqlite文件删除，再进行下一个tensor_size的测试
+2、有时候某个device可能没有全部6个operator的结果，那是因为此次运行overlap=false时，恰好在该device上只运行了这几个kernel，具体可查看nsys-rep文件。遇到这种情况，重新跑一次/几次overlap=false的情况，再运行sqlite-process.py即可
