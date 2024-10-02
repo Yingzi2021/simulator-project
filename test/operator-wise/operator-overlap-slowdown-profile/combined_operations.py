@@ -47,6 +47,10 @@ def initialize_workload(rank, world_size, matrix_size, tensor_size_mb, linear_in
         attention_config['Z'], attention_config['H'], attention_config['KVH'], attention_config['N_CTX'], attention_config['D_HEAD'], causal=True
     )
 
+    # Create tensors for memcpy simulation
+    memcpy_src = torch.randn(matrix_size, matrix_size, device='cuda')  # Source tensor
+    memcpy_dst = torch.empty_like(memcpy_src, device='cuda')  # Destination tensor (empty, to be "copied to")
+
     return {
         'matrix1': matrix1,
         'matrix2': matrix2,
@@ -56,14 +60,16 @@ def initialize_workload(rank, world_size, matrix_size, tensor_size_mb, linear_in
         'linear_input': linear_input,
         'flash_q': flash_q,
         'flash_k': flash_k,
-        'flash_v': flash_v
+        'flash_v': flash_v,
+        'memcpy_src': memcpy_src,  # Add source tensor to workload
+        'memcpy_dst': memcpy_dst   # Add destination tensor to workload
     }
 
 def torch_combined(workload, stream, all_reduce_stream, overlap, operation):
     repeat = 10
     torch.cuda.nvtx.range_push("combined")
     
-    operations_list = ["sum", "add", "layer_norm", "softmax", "linear", "flash_attn"]
+    operations_list = ["sum", "add", "layer_norm", "softmax", "linear", "flash_attn", "memcpy"] # add operator "memcpy"
     
     if operation == "all":
         ops_to_run = operations_list
@@ -85,6 +91,8 @@ def torch_combined(workload, stream, all_reduce_stream, overlap, operation):
                     result = workload['nn_linear'](workload['linear_input'])  # 5. Linear Layer
                 elif op == "flash_attn":
                     result = flash_attn_func(workload['flash_q'], workload['flash_k'], workload['flash_v'], 0, 0.5, True)  # 6. Flash Attention
+                elif op == "memcpy":
+                    result = workload['memcpy_dst'].copy_(workload['memcpy_src'])  # Perform the copy operation
                 else:
                     raise ValueError(f"Unsupported operation: {op}")
 
