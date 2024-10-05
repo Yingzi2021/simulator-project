@@ -1,0 +1,109 @@
+Operation: aten::add, Input Shapes: [[8, 128, 768], [1, 128, 768], []], CPU Time: 301us, CUDA Time: 3us
+Operation: aten::addmm, Input Shapes: [[2304], [1024, 768], [768, 2304], [], []], CPU Time: 4777us, CUDA Time: 4613us
+Operation: aten::softmax, Input Shapes: [[8, 12, 128, 128], [], []], CPU Time: 647us, CUDA Time: 9us
+Operation: aten::addmm, Input Shapes: [[768], [1024, 768], [768, 768], [], []], CPU Time: 1413us, CUDA Time: 2499us
+Operation: aten::add, Input Shapes: [[8, 128, 768], [8, 128, 768], []], CPU Time: 62us, CUDA Time: 3us
+Operation: aten::addmm, Input Shapes: [[3072], [1024, 768], [768, 3072], [], []], CPU Time: 6517us, CUDA Time: 7085us
+Operation: aten::add, Input Shapes: [[8, 128, 3072], [8, 128, 3072], []], CPU Time: 894us, CUDA Time: 3us
+Operation: aten::add, Input Shapes: [[8, 128, 3072], [], []], CPU Time: 986us, CUDA Time: 2503us
+Operation: aten::addmm, Input Shapes: [[768], [1024, 3072], [3072, 768], [], []], CPU Time: 5160us, CUDA Time: 4605us
+Operation: aten::add, Input Shapes: [[8, 128, 768], [8, 128, 768], []], CPU Time: 75us, CUDA Time: 3us
+Operation: aten::addmm, Input Shapes: [[2304], [1024, 768], [768, 2304], [], []], CPU Time: 3748us, CUDA Time: 4621us
+Operation: aten::softmax, Input Shapes: [[8, 12, 128, 128], [], []], CPU Time: 198us, CUDA Time: 10us
+Operation: aten::addmm, Input Shapes: [[768], [1024, 768], [768, 768], [], []], CPU Time: 1340us, CUDA Time: 2525us
+Operation: aten::add, Input Shapes: [[8, 128, 768], [8, 128, 768], []], CPU Time: 57us, CUDA Time: 3us
+Operation: aten::addmm, Input Shapes: [[3072], [1024, 768], [768, 3072], [], []], CPU Time: 4272us, CUDA Time: 4610us
+Operation: aten::add, Input Shapes: [[8, 128, 3072], [8, 128, 3072], []], CPU Time: 193us, CUDA Time: 3us
+Operation: aten::add, Input Shapes: [[8, 128, 3072], [], []], CPU Time: 175us, CUDA Time: 30us
+Operation: aten::addmm, Input Shapes: [[768], [1024, 3072], [3072, 768], [], []], CPU Time: 4015us, CUDA Time: 4601us
+Operation: aten::add, Input Shapes: [[8, 128, 768], [8, 128, 768], []], CPU Time: 72us, CUDA Time: 3us
+Operation: aten::addmm, Input Shapes: [[2304], [1024, 768], [768, 2304], [], []], CPU Time: 2705us, CUDA Time: 2487us
+Operation: aten::softmax, Input Shapes: [[8, 12, 128, 128], [], []], CPU Time: 166us, CUDA Time: 10us
+Operation: aten::addmm, Input Shapes: [[768], [1024, 768], [768, 768], [], []], CPU Time: 988us, CUDA Time: 43us
+Operation: aten::add, Input Shapes: [[8, 128, 768], [8, 128, 768], []], CPU Time: 46us, CUDA Time: 3us
+Operation: aten::addmm, Input Shapes: [[3072], [1024, 768], [768, 3072], [], []], CPU Time: 3771us, CUDA Time: 4931us
+Operation: aten::add, Input Shapes: [[8, 128, 3072], [8, 128, 3072], []], CPU Time: 668us, CUDA Time: 3us
+Operation: aten::add, Input Shapes: [[8, 128, 3072], [], []], CPU Time: 738us, CUDA Time: 29us
+Operation: aten::addmm, Input Shapes: [[768], [1024, 3072], [3072, 768], [], []], CPU Time: 3374us, CUDA Time: 4604us
+Operation: aten::add, Input Shapes: [[8, 128, 768], [8, 128, 768], []], CPU Time: 45us, CUDA Time: 3us
+Operation: aten::addmm, Input Shapes: [[2304], [1024, 768], [768, 2304], [], []], CPU Time: 2572us, CUDA Time: 2506us
+Operation: aten::softmax, Input Shapes: [[8, 12, 128, 128], [], []], CPU Time: 159us, CUDA Time: 9us
+Operation: aten::addmm, Input Shapes: [[768], [1024, 768], [768, 768], [], []], CPU Time: 948us, CUDA Time: 2508us
+Operation: aten::add, Input Shapes: [[8, 128, 768], [8, 128, 768], []], CPU Time: 45us, CUDA Time: 3us
+Operation: aten::addmm, Input Shapes: [[3072], [1024, 768], [768, 3072], [], []], CPU Time: 3142us, CUDA Time: 2511us
+Operation: aten::add, Input Shapes: [[8, 128, 3072], [8, 128, 3072], []], CPU Time: 194us, CUDA Time: 3us
+Operation: aten::add, Input Shapes: [[8, 128, 3072], [], []], CPU Time: 191us, CUDA Time: 30us
+Operation: aten::addmm, Input Shapes: [[768], [1024, 3072], [3072, 768], [], []], CPU Time: 3009us, CUDA Time: 2506us
+Operation: aten::add, Input Shapes: [[8, 128, 768], [8, 128, 768], []], CPU Time: 44us, CUDA Time: 3us
+Operation: aten::addmm, Input Shapes: [[2304], [1024, 768], [768, 2304], [], []], CPU Time: 2200us, CUDA Time: 2500us
+Operation: aten::softmax, Input Shapes: [[8, 12, 128, 128], [], []], CPU Time: 156us, CUDA Time: 9us
+Operation: aten::addmm, Input Shapes: [[768], [1024, 768], [768, 768], [], []], CPU Time: 827us, CUDA Time: 47us
+Operation: aten::add, Input Shapes: [[8, 128, 768], [8, 128, 768], []], CPU Time: 74us, CUDA Time: 3us
+Operation: aten::addmm, Input Shapes: [[3072], [1024, 768], [768, 3072], [], []], CPU Time: 2619us, CUDA Time: 2496us
+Operation: aten::add, Input Shapes: [[8, 128, 3072], [8, 128, 3072], []], CPU Time: 193us, CUDA Time: 3us
+Operation: aten::add, Input Shapes: [[8, 128, 3072], [], []], CPU Time: 757us, CUDA Time: 30us
+Operation: aten::addmm, Input Shapes: [[768], [1024, 3072], [3072, 768], [], []], CPU Time: 2475us, CUDA Time: 2505us
+Operation: aten::add, Input Shapes: [[8, 128, 768], [8, 128, 768], []], CPU Time: 44us, CUDA Time: 3us
+Operation: aten::addmm, Input Shapes: [[2304], [1024, 768], [768, 2304], [], []], CPU Time: 1835us, CUDA Time: 2507us
+Operation: aten::softmax, Input Shapes: [[8, 12, 128, 128], [], []], CPU Time: 138us, CUDA Time: 9us
+Operation: aten::addmm, Input Shapes: [[768], [1024, 768], [768, 768], [], []], CPU Time: 744us, CUDA Time: 43us
+Operation: aten::add, Input Shapes: [[8, 128, 768], [8, 128, 768], []], CPU Time: 49us, CUDA Time: 3us
+Operation: aten::addmm, Input Shapes: [[3072], [1024, 768], [768, 3072], [], []], CPU Time: 2452us, CUDA Time: 2515us
+Operation: aten::add, Input Shapes: [[8, 128, 3072], [8, 128, 3072], []], CPU Time: 171us, CUDA Time: 3us
+Operation: aten::add, Input Shapes: [[8, 128, 3072], [], []], CPU Time: 179us, CUDA Time: 31us
+Operation: aten::addmm, Input Shapes: [[768], [1024, 3072], [3072, 768], [], []], CPU Time: 2511us, CUDA Time: 2509us
+Operation: aten::add, Input Shapes: [[8, 128, 768], [8, 128, 768], []], CPU Time: 44us, CUDA Time: 3us
+Operation: aten::addmm, Input Shapes: [[2304], [1024, 768], [768, 2304], [], []], CPU Time: 1857us, CUDA Time: 43us
+Operation: aten::softmax, Input Shapes: [[8, 12, 128, 128], [], []], CPU Time: 149us, CUDA Time: 10us
+Operation: aten::addmm, Input Shapes: [[768], [1024, 768], [768, 768], [], []], CPU Time: 762us, CUDA Time: 43us
+Operation: aten::add, Input Shapes: [[8, 128, 768], [8, 128, 768], []], CPU Time: 68us, CUDA Time: 3us
+Operation: aten::addmm, Input Shapes: [[3072], [1024, 768], [768, 3072], [], []], CPU Time: 2408us, CUDA Time: 2507us
+Operation: aten::add, Input Shapes: [[8, 128, 3072], [8, 128, 3072], []], CPU Time: 663us, CUDA Time: 3us
+Operation: aten::add, Input Shapes: [[8, 128, 3072], [], []], CPU Time: 221us, CUDA Time: 31us
+Operation: aten::addmm, Input Shapes: [[768], [1024, 3072], [3072, 768], [], []], CPU Time: 2553us, CUDA Time: 2502us
+Operation: aten::add, Input Shapes: [[8, 128, 768], [8, 128, 768], []], CPU Time: 73us, CUDA Time: 3us
+Operation: aten::addmm, Input Shapes: [[2304], [1024, 768], [768, 2304], [], []], CPU Time: 1863us, CUDA Time: 2510us
+Operation: aten::softmax, Input Shapes: [[8, 12, 128, 128], [], []], CPU Time: 153us, CUDA Time: 10us
+Operation: aten::addmm, Input Shapes: [[768], [1024, 768], [768, 768], [], []], CPU Time: 792us, CUDA Time: 43us
+Operation: aten::add, Input Shapes: [[8, 128, 768], [8, 128, 768], []], CPU Time: 44us, CUDA Time: 3us
+Operation: aten::addmm, Input Shapes: [[3072], [1024, 768], [768, 3072], [], []], CPU Time: 2438us, CUDA Time: 2512us
+Operation: aten::add, Input Shapes: [[8, 128, 3072], [8, 128, 3072], []], CPU Time: 676us, CUDA Time: 3us
+Operation: aten::add, Input Shapes: [[8, 128, 3072], [], []], CPU Time: 742us, CUDA Time: 29us
+Operation: aten::addmm, Input Shapes: [[768], [1024, 3072], [3072, 768], [], []], CPU Time: 2512us, CUDA Time: 2503us
+Operation: aten::add, Input Shapes: [[8, 128, 768], [8, 128, 768], []], CPU Time: 44us, CUDA Time: 3us
+Operation: aten::addmm, Input Shapes: [[2304], [1024, 768], [768, 2304], [], []], CPU Time: 1883us, CUDA Time: 2503us
+Operation: aten::softmax, Input Shapes: [[8, 12, 128, 128], [], []], CPU Time: 147us, CUDA Time: 9us
+Operation: aten::addmm, Input Shapes: [[768], [1024, 768], [768, 768], [], []], CPU Time: 816us, CUDA Time: 43us
+Operation: aten::add, Input Shapes: [[8, 128, 768], [8, 128, 768], []], CPU Time: 46us, CUDA Time: 3us
+Operation: aten::addmm, Input Shapes: [[3072], [1024, 768], [768, 3072], [], []], CPU Time: 2461us, CUDA Time: 2505us
+Operation: aten::add, Input Shapes: [[8, 128, 3072], [8, 128, 3072], []], CPU Time: 640us, CUDA Time: 2463us
+Operation: aten::add, Input Shapes: [[8, 128, 3072], [], []], CPU Time: 724us, CUDA Time: 30us
+Operation: aten::addmm, Input Shapes: [[768], [1024, 3072], [3072, 768], [], []], CPU Time: 2474us, CUDA Time: 2506us
+Operation: aten::add, Input Shapes: [[8, 128, 768], [8, 128, 768], []], CPU Time: 45us, CUDA Time: 3us
+Operation: aten::addmm, Input Shapes: [[2304], [1024, 768], [768, 2304], [], []], CPU Time: 1886us, CUDA Time: 43us
+Operation: aten::softmax, Input Shapes: [[8, 12, 128, 128], [], []], CPU Time: 153us, CUDA Time: 9us
+Operation: aten::addmm, Input Shapes: [[768], [1024, 768], [768, 768], [], []], CPU Time: 773us, CUDA Time: 44us
+Operation: aten::add, Input Shapes: [[8, 128, 768], [8, 128, 768], []], CPU Time: 48us, CUDA Time: 3us
+Operation: aten::addmm, Input Shapes: [[3072], [1024, 768], [768, 3072], [], []], CPU Time: 2434us, CUDA Time: 2485us
+Operation: aten::add, Input Shapes: [[8, 128, 3072], [8, 128, 3072], []], CPU Time: 218us, CUDA Time: 3us
+Operation: aten::add, Input Shapes: [[8, 128, 3072], [], []], CPU Time: 215us, CUDA Time: 30us
+Operation: aten::addmm, Input Shapes: [[768], [1024, 3072], [3072, 768], [], []], CPU Time: 2499us, CUDA Time: 2508us
+Operation: aten::add, Input Shapes: [[8, 128, 768], [8, 128, 768], []], CPU Time: 44us, CUDA Time: 3us
+Operation: aten::addmm, Input Shapes: [[2304], [1024, 768], [768, 2304], [], []], CPU Time: 1856us, CUDA Time: 2511us
+Operation: aten::softmax, Input Shapes: [[8, 12, 128, 128], [], []], CPU Time: 136us, CUDA Time: 10us
+Operation: aten::addmm, Input Shapes: [[768], [1024, 768], [768, 768], [], []], CPU Time: 754us, CUDA Time: 44us
+Operation: aten::add, Input Shapes: [[8, 128, 768], [8, 128, 768], []], CPU Time: 66us, CUDA Time: 3us
+Operation: aten::addmm, Input Shapes: [[3072], [1024, 768], [768, 3072], [], []], CPU Time: 2465us, CUDA Time: 2512us
+Operation: aten::add, Input Shapes: [[8, 128, 3072], [8, 128, 3072], []], CPU Time: 173us, CUDA Time: 3us
+Operation: aten::add, Input Shapes: [[8, 128, 3072], [], []], CPU Time: 202us, CUDA Time: 30us
+Operation: aten::addmm, Input Shapes: [[768], [1024, 3072], [3072, 768], [], []], CPU Time: 2515us, CUDA Time: 2518us
+Operation: aten::add, Input Shapes: [[8, 128, 768], [8, 128, 768], []], CPU Time: 53us, CUDA Time: 3us
+Operation: aten::addmm, Input Shapes: [[2304], [1024, 768], [768, 2304], [], []], CPU Time: 1844us, CUDA Time: 43us
+Operation: aten::softmax, Input Shapes: [[8, 12, 128, 128], [], []], CPU Time: 172us, CUDA Time: 10us
+Operation: aten::addmm, Input Shapes: [[768], [1024, 768], [768, 768], [], []], CPU Time: 977us, CUDA Time: 2504us
+Operation: aten::add, Input Shapes: [[8, 128, 768], [8, 128, 768], []], CPU Time: 52us, CUDA Time: 3us
+Operation: aten::addmm, Input Shapes: [[3072], [1024, 768], [768, 3072], [], []], CPU Time: 2451us, CUDA Time: 2500us
+Operation: aten::add, Input Shapes: [[8, 128, 3072], [8, 128, 3072], []], CPU Time: 173us, CUDA Time: 3us
+Operation: aten::add, Input Shapes: [[8, 128, 3072], [], []], CPU Time: 696us, CUDA Time: 32us
+Operation: aten::addmm, Input Shapes: [[768], [1024, 3072], [3072, 768], [], []], CPU Time: 2485us, CUDA Time: 2494us
+Operation: aten::add, Input Shapes: [[8, 128, 768], [8, 128, 768], []], CPU Time: 45us, CUDA Time: 3us

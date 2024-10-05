@@ -1,0 +1,170 @@
+Layer: LayerNorm, Input Shape: [torch.Size([8, 128, 768])]
+Output Shape: torch.Size([8, 128, 768])
+Layer: Conv1D, Input Shape: [torch.Size([8, 128, 768])]
+Output Shape: torch.Size([8, 128, 2304])
+Layer: Dropout, Input Shape: [torch.Size([8, 12, 128, 128])]
+Output Shape: torch.Size([8, 12, 128, 128])
+Layer: Conv1D, Input Shape: [torch.Size([8, 128, 768])]
+Output Shape: torch.Size([8, 128, 768])
+Layer: Dropout, Input Shape: [torch.Size([8, 128, 768])]
+Output Shape: torch.Size([8, 128, 768])
+Layer: GPT2Attention, Input Shape: [torch.Size([8, 128, 768])]
+Output Shapes: [torch.Size([8, 128, 768])]
+Layer: LayerNorm, Input Shape: [torch.Size([8, 128, 768])]
+Output Shape: torch.Size([8, 128, 768])
+Layer: LayerNorm, Input Shape: [torch.Size([8, 128, 768])]
+Output Shape: torch.Size([8, 128, 768])
+Layer: Conv1D, Input Shape: [torch.Size([8, 128, 768])]
+Output Shape: torch.Size([8, 128, 2304])
+Layer: Dropout, Input Shape: [torch.Size([8, 12, 128, 128])]
+Output Shape: torch.Size([8, 12, 128, 128])
+Layer: Conv1D, Input Shape: [torch.Size([8, 128, 768])]
+Output Shape: torch.Size([8, 128, 768])
+Layer: Dropout, Input Shape: [torch.Size([8, 128, 768])]
+Output Shape: torch.Size([8, 128, 768])
+Layer: GPT2Attention, Input Shape: [torch.Size([8, 128, 768])]
+Output Shapes: [torch.Size([8, 128, 768])]
+Layer: LayerNorm, Input Shape: [torch.Size([8, 128, 768])]
+Output Shape: torch.Size([8, 128, 768])
+Layer: LayerNorm, Input Shape: [torch.Size([8, 128, 768])]
+Output Shape: torch.Size([8, 128, 768])
+Layer: Conv1D, Input Shape: [torch.Size([8, 128, 768])]
+Output Shape: torch.Size([8, 128, 2304])
+Layer: Dropout, Input Shape: [torch.Size([8, 12, 128, 128])]
+Output Shape: torch.Size([8, 12, 128, 128])
+Layer: Conv1D, Input Shape: [torch.Size([8, 128, 768])]
+Output Shape: torch.Size([8, 128, 768])
+Layer: Dropout, Input Shape: [torch.Size([8, 128, 768])]
+Output Shape: torch.Size([8, 128, 768])
+Layer: GPT2Attention, Input Shape: [torch.Size([8, 128, 768])]
+Output Shapes: [torch.Size([8, 128, 768])]
+Layer: LayerNorm, Input Shape: [torch.Size([8, 128, 768])]
+Output Shape: torch.Size([8, 128, 768])
+Layer: LayerNorm, Input Shape: [torch.Size([8, 128, 768])]
+Output Shape: torch.Size([8, 128, 768])
+Layer: Conv1D, Input Shape: [torch.Size([8, 128, 768])]
+Output Shape: torch.Size([8, 128, 2304])
+Layer: Dropout, Input Shape: [torch.Size([8, 12, 128, 128])]
+Output Shape: torch.Size([8, 12, 128, 128])
+Layer: Conv1D, Input Shape: [torch.Size([8, 128, 768])]
+Output Shape: torch.Size([8, 128, 768])
+Layer: Dropout, Input Shape: [torch.Size([8, 128, 768])]
+Output Shape: torch.Size([8, 128, 768])
+Layer: GPT2Attention, Input Shape: [torch.Size([8, 128, 768])]
+Output Shapes: [torch.Size([8, 128, 768])]
+Layer: LayerNorm, Input Shape: [torch.Size([8, 128, 768])]
+Output Shape: torch.Size([8, 128, 768])
+Layer: LayerNorm, Input Shape: [torch.Size([8, 128, 768])]
+Output Shape: torch.Size([8, 128, 768])
+Layer: Conv1D, Input Shape: [torch.Size([8, 128, 768])]
+Output Shape: torch.Size([8, 128, 2304])
+Layer: Dropout, Input Shape: [torch.Size([8, 12, 128, 128])]
+Output Shape: torch.Size([8, 12, 128, 128])
+Layer: Conv1D, Input Shape: [torch.Size([8, 128, 768])]
+Output Shape: torch.Size([8, 128, 768])
+Layer: Dropout, Input Shape: [torch.Size([8, 128, 768])]
+Output Shape: torch.Size([8, 128, 768])
+Layer: GPT2Attention, Input Shape: [torch.Size([8, 128, 768])]
+Output Shapes: [torch.Size([8, 128, 768])]
+Layer: LayerNorm, Input Shape: [torch.Size([8, 128, 768])]
+Output Shape: torch.Size([8, 128, 768])
+Layer: LayerNorm, Input Shape: [torch.Size([8, 128, 768])]
+Output Shape: torch.Size([8, 128, 768])
+Layer: Conv1D, Input Shape: [torch.Size([8, 128, 768])]
+Output Shape: torch.Size([8, 128, 2304])
+Layer: Dropout, Input Shape: [torch.Size([8, 12, 128, 128])]
+Output Shape: torch.Size([8, 12, 128, 128])
+Layer: Conv1D, Input Shape: [torch.Size([8, 128, 768])]
+Output Shape: torch.Size([8, 128, 768])
+Layer: Dropout, Input Shape: [torch.Size([8, 128, 768])]
+Output Shape: torch.Size([8, 128, 768])
+Layer: GPT2Attention, Input Shape: [torch.Size([8, 128, 768])]
+Output Shapes: [torch.Size([8, 128, 768])]
+Layer: LayerNorm, Input Shape: [torch.Size([8, 128, 768])]
+Output Shape: torch.Size([8, 128, 768])
+Layer: LayerNorm, Input Shape: [torch.Size([8, 128, 768])]
+Output Shape: torch.Size([8, 128, 768])
+Layer: Conv1D, Input Shape: [torch.Size([8, 128, 768])]
+Output Shape: torch.Size([8, 128, 2304])
+Layer: Dropout, Input Shape: [torch.Size([8, 12, 128, 128])]
+Output Shape: torch.Size([8, 12, 128, 128])
+Layer: Conv1D, Input Shape: [torch.Size([8, 128, 768])]
+Output Shape: torch.Size([8, 128, 768])
+Layer: Dropout, Input Shape: [torch.Size([8, 128, 768])]
+Output Shape: torch.Size([8, 128, 768])
+Layer: GPT2Attention, Input Shape: [torch.Size([8, 128, 768])]
+Output Shapes: [torch.Size([8, 128, 768])]
+Layer: LayerNorm, Input Shape: [torch.Size([8, 128, 768])]
+Output Shape: torch.Size([8, 128, 768])
+Layer: LayerNorm, Input Shape: [torch.Size([8, 128, 768])]
+Output Shape: torch.Size([8, 128, 768])
+Layer: Conv1D, Input Shape: [torch.Size([8, 128, 768])]
+Output Shape: torch.Size([8, 128, 2304])
+Layer: Dropout, Input Shape: [torch.Size([8, 12, 128, 128])]
+Output Shape: torch.Size([8, 12, 128, 128])
+Layer: Conv1D, Input Shape: [torch.Size([8, 128, 768])]
+Output Shape: torch.Size([8, 128, 768])
+Layer: Dropout, Input Shape: [torch.Size([8, 128, 768])]
+Output Shape: torch.Size([8, 128, 768])
+Layer: GPT2Attention, Input Shape: [torch.Size([8, 128, 768])]
+Output Shapes: [torch.Size([8, 128, 768])]
+Layer: LayerNorm, Input Shape: [torch.Size([8, 128, 768])]
+Output Shape: torch.Size([8, 128, 768])
+Layer: LayerNorm, Input Shape: [torch.Size([8, 128, 768])]
+Output Shape: torch.Size([8, 128, 768])
+Layer: Conv1D, Input Shape: [torch.Size([8, 128, 768])]
+Output Shape: torch.Size([8, 128, 2304])
+Layer: Dropout, Input Shape: [torch.Size([8, 12, 128, 128])]
+Output Shape: torch.Size([8, 12, 128, 128])
+Layer: Conv1D, Input Shape: [torch.Size([8, 128, 768])]
+Output Shape: torch.Size([8, 128, 768])
+Layer: Dropout, Input Shape: [torch.Size([8, 128, 768])]
+Output Shape: torch.Size([8, 128, 768])
+Layer: GPT2Attention, Input Shape: [torch.Size([8, 128, 768])]
+Output Shapes: [torch.Size([8, 128, 768])]
+Layer: LayerNorm, Input Shape: [torch.Size([8, 128, 768])]
+Output Shape: torch.Size([8, 128, 768])
+Layer: LayerNorm, Input Shape: [torch.Size([8, 128, 768])]
+Output Shape: torch.Size([8, 128, 768])
+Layer: Conv1D, Input Shape: [torch.Size([8, 128, 768])]
+Output Shape: torch.Size([8, 128, 2304])
+Layer: Dropout, Input Shape: [torch.Size([8, 12, 128, 128])]
+Output Shape: torch.Size([8, 12, 128, 128])
+Layer: Conv1D, Input Shape: [torch.Size([8, 128, 768])]
+Output Shape: torch.Size([8, 128, 768])
+Layer: Dropout, Input Shape: [torch.Size([8, 128, 768])]
+Output Shape: torch.Size([8, 128, 768])
+Layer: GPT2Attention, Input Shape: [torch.Size([8, 128, 768])]
+Output Shapes: [torch.Size([8, 128, 768])]
+Layer: LayerNorm, Input Shape: [torch.Size([8, 128, 768])]
+Output Shape: torch.Size([8, 128, 768])
+Layer: LayerNorm, Input Shape: [torch.Size([8, 128, 768])]
+Output Shape: torch.Size([8, 128, 768])
+Layer: Conv1D, Input Shape: [torch.Size([8, 128, 768])]
+Output Shape: torch.Size([8, 128, 2304])
+Layer: Dropout, Input Shape: [torch.Size([8, 12, 128, 128])]
+Output Shape: torch.Size([8, 12, 128, 128])
+Layer: Conv1D, Input Shape: [torch.Size([8, 128, 768])]
+Output Shape: torch.Size([8, 128, 768])
+Layer: Dropout, Input Shape: [torch.Size([8, 128, 768])]
+Output Shape: torch.Size([8, 128, 768])
+Layer: GPT2Attention, Input Shape: [torch.Size([8, 128, 768])]
+Output Shapes: [torch.Size([8, 128, 768])]
+Layer: LayerNorm, Input Shape: [torch.Size([8, 128, 768])]
+Output Shape: torch.Size([8, 128, 768])
+Layer: LayerNorm, Input Shape: [torch.Size([8, 128, 768])]
+Output Shape: torch.Size([8, 128, 768])
+Layer: Conv1D, Input Shape: [torch.Size([8, 128, 768])]
+Output Shape: torch.Size([8, 128, 2304])
+Layer: Dropout, Input Shape: [torch.Size([8, 12, 128, 128])]
+Output Shape: torch.Size([8, 12, 128, 128])
+Layer: Conv1D, Input Shape: [torch.Size([8, 128, 768])]
+Output Shape: torch.Size([8, 128, 768])
+Layer: Dropout, Input Shape: [torch.Size([8, 128, 768])]
+Output Shape: torch.Size([8, 128, 768])
+Layer: GPT2Attention, Input Shape: [torch.Size([8, 128, 768])]
+Output Shapes: [torch.Size([8, 128, 768])]
+Layer: LayerNorm, Input Shape: [torch.Size([8, 128, 768])]
+Output Shape: torch.Size([8, 128, 768])
+Layer: LayerNorm, Input Shape: [torch.Size([8, 128, 768])]
+Output Shape: torch.Size([8, 128, 768])
