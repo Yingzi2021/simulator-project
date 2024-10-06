@@ -1,0 +1,6 @@
+1、add, Input Shapes: [[32, 1024, 768], [32, 1024, 768], []]
+2、softmax, Input Shapes: [[32, 12, 1024, 1024], [], []]
+3、layer_norm, Input Shapes: [[32, 1024, 768], [], [768], [768], [], []]
+4、flash_attn, Input Shape: [torch.Size([32, 1024, 768])]
+5、sum, Input Shape: [torch.Size([32, 1024, 768])]
+6、linear, Input Shapes: [[768], [32768, 768], [768, 768], [], []]
