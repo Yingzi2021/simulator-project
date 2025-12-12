@@ -1,5 +1,5 @@
 {
-    "world_size": 1,
+    "world_size": 2,
     "cap_size": 2,
     "epochs": 3,
     "model_name": "resnet152",
